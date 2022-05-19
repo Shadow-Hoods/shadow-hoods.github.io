@@ -1,7 +1,7 @@
-<hr>
-  <h1 align="center">
-    <a href="https://shadow-hoods.github.io/">shadow-hoods.github.io</a>
-  <p>This website is under construction, thank you for your patience</p> 
-  <p>SERVER STATUS : OFFLINE </p><!-- pour etre mis a jour automatiquement avec l'état du serveur va falloir le relier avec du JS -->
-  </h1>
-<hr>
+<blockquote>
+  <hr>
+    <h2 align="center">Shadow Hoods</h2>
+  <hr>
+    <p align="left">Ceci est le site de la communauté, il y aura des actus sur les logiciels, des <a href="https://fr.wiktionary.org/wiki/tips">Tips Informatique</a>.</p>
+  <hr>
+</blockquote>
