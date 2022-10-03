@@ -1,0 +1,24 @@
+@import url(./ordinateur.css);
+@import url(./smartphone.css);
+
+:root
+{
+    --bg-header:rgb(12, 12, 12);
+    --fg-header: white;
+
+    --bg-main: rgb(37, 37, 37);
+    --fg-main: white;
+
+    --bg-footer: rgb(12, 12, 12);
+    --fg-footer: white;
+}
+
+*
+{
+    margin: 0; padding: 0;
+}
+
+html, body
+{
+    width: 100%; height: 100%;
+}
