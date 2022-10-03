@@ -1,6 +1,6 @@
 import flask
 
-app = Flask(__name__, template_folder="./")
+app = flask.Flask(__name__, template_folder="./")
 
 @app.route("/")
 def main():
