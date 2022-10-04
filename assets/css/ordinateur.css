@@ -22,6 +22,7 @@
         margin-top: 20%;
         text-align: center;
         font-family: Courier;
+        text-transform: upper;
     }
 
     main > h1:hover
