@@ -1,5 +1,5 @@
-@import url(./ordinateur.css);
-@import url(./smartphone.css);
+@import url(/assets/css/ordinateur.css);
+@import url(/assets/css/smartphone.css);
 
 html, body {
     width: 100vw; 
@@ -7,8 +7,52 @@ html, body {
     /* background: linear-gradient(gray, black); */
     background-color: rgb(2, 11, 19);
     color: aliceblue;
+    margin: 0;
 }
 
-#title{
-    font-family: kusanagi;
+.j{
+    width: 100vw; 
+    height: 100vh;
+    background-color: rgb(2, 11, 19);
+    color: aliceblue;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+    scroll-snap-align: center;
+    margin: 0;
+}
+
+.j > section{
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-align: start;
+    scrollbar-width: none;
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.j > section > div{
+    background-color: rgba(1, 6, 10, 0.8);
+    color: azure;
+    max-width: 20vw;
+    min-width: fit-content;
+    padding: 1%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+.info{
+    justify-content: space-around;
+}
+
+.title{
+    font-family: "DuneRise";
 }

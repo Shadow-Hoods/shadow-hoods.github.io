@@ -1,3 +1,5 @@
+#/bin/python3
+
 import flask
 
 app = flask.Flask(__name__, template_folder="./")
@@ -6,7 +8,7 @@ app = flask.Flask(__name__, template_folder="./")
 def main():
     return flask.render_template("index.html")
 
-@app.route("/<file>")
+@app.route("/<path:file>")
 def upload(file):
     return flask.send_file(file)
 
