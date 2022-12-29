@@ -8,6 +8,11 @@ html, body {
     background-color: rgb(2, 11, 19);
     color: aliceblue;
     margin: 0;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar{
+    width: 0;
 }
 
 .j{
@@ -15,17 +20,16 @@ html, body {
     height: 100vh;
     background-color: rgb(2, 11, 19);
     color: aliceblue;
+    overflow-y: scroll;
     scroll-snap-type: y mandatory;
     scrollbar-width: none;
-    scroll-snap-align: center;
-    margin: 0;
 }
 
 .j > section{
     width: 100vw;
     height: 100vh;
+    overflow: auto;
     scroll-snap-align: start;
-    scrollbar-width: none;
 }
 
 .a{
@@ -34,7 +38,7 @@ html, body {
     align-items: center;
 }
 
-.j > section > div{
+.info > div{
     background-color: rgba(1, 6, 10, 0.8);
     color: azure;
     max-width: 20vw;
